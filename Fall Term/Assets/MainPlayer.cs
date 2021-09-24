@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class MainPlayer : MonoBehaviour
 {
+    public string myName;
     // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-        Debug.Log("I am alive!");
+        Debug.Log("I am alive and my name is " + myName );
     }
 
     // Update is called once per frame
