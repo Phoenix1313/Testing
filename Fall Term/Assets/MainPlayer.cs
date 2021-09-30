@@ -9,12 +9,26 @@ public class MainPlayer : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debug.Log("I am alive and my name is " + myName );
+        Debug.Log("I am alive and my name is " + myName);
+    }
+}
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "John";
+            Console.WriteLine(name);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    internal class Console
     {
-        
+        internal static void WriteLine(string name)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
