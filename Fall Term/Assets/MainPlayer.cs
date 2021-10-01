@@ -15,18 +15,35 @@ public class MainPlayer : MonoBehaviour
 
 namespace MyApplication
 {
-    class Program
+    namespace MyApplication
     {
-        static void Main(string[] args)
+        internal class Program
         {
-            string name = "John";
-            Console.WriteLine(name);
+            public Program()
+            {
+            }
+
+            static void Main(string[] args)
+            {
+                string name = "John";
+                Console.WriteLine(name);
+            }
         }
     }
 
     internal class Console
     {
         internal static void WriteLine(string name)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        internal static void WriteLine(int v)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        internal static void WriteLine(bool v)
         {
             throw new System.NotImplementedException();
         }
