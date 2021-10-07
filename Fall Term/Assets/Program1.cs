@@ -3,7 +3,7 @@ using System;
 
 namespace MyApplication
 {
-    class Program
+    class Program5
     {
         static void Main(string[] args)
         {
