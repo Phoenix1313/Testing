@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+namespace Assets
+{
     class Program
     {
         static void Main(string[] args)
@@ -15,4 +17,4 @@ using System;
             }
         }
     }
-
+}

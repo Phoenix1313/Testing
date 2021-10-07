@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class Program3 : MonoBehaviour
+class Program
 {
-    // Start is called before the first frame update
-    void Start()
+    static void Main(string[] args)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        int time = 10;
+        if (time < 15)
+        {
+            Console.WriteLine("Good day.");
+        }
+        else
+        {
+            Console.WriteLine("Good evening.");
+        }
     }
 }
+
