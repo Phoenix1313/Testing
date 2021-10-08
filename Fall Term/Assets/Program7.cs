@@ -4,18 +4,13 @@ using UnityEngine;
 
 using System;
 
-namespace MyApplication
-{
     class Program7
     {
         static void Main(string[] args)
         {
-            int i = 4;
-            while (i < 5)
+            for (int i = 0; i <= 9; i = i + 2)
             {
                 Console.WriteLine(i);
-                i++;
             }
         }
     }
-}
